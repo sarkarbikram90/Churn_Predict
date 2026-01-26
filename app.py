@@ -94,7 +94,7 @@ input_df = pd.DataFrame([{
     ##     st.success("✅ Churn: NO (Customer likely to stay)")
 
 probability = model.predict_proba(input_df)[0][1]
-st.info(f"Customer Churn Probability: {probability:.2%}")
+st.info(f"Customer Churn Probability Score(%): {probability:.2%}")
 
 if probability > 0.7:
     st.error("High churn risk 🚨")
