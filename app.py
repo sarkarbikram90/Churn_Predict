@@ -96,3 +96,10 @@ input_df = pd.DataFrame([{
 proba = model.predict_proba(input_df)[0][1]
 st.info(f"Customer Churn Probability: {proba:.2%}")
 
+if proba > 0.7:
+    st.error("High churn risk 🚨")
+elif proba > 0.4:
+    st.warning("Medium churn risk ⚠️")
+else:
+    st.success("Low churn risk ✅")
+
