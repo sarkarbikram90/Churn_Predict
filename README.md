@@ -46,15 +46,15 @@ streamlit run app.py
 
 ## Notes
 
-MLflow is not required at inference time
-The Streamlit app loads a pre-trained model artifact
-Designed as a clean, minimal demo of an ML lifecycle
+1. MLflow is not required at inference time
+2. The Streamlit app loads a pre-trained model artifact
+3. Designed as a clean, minimal demo of an ML lifecycle
 
 ---
 
 ## Use case
 
-This project is intended as a demo-quality reference for showcasing:
-ML lifecycle understanding
-MLOps fundamentals
-Clean deployment practices
+1. This project is intended as a demo-quality reference for showcasing:
+2. ML lifecycle understanding
+3. MLOps fundamentals
+4. Clean deployment practices
