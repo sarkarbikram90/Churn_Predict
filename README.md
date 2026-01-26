@@ -40,11 +40,17 @@ The model is trained locally using **MLflow** for experiment tracking and then d
 pip install -r requirements.txt
 streamlit run app.py
 
+```bash
+
+---
+
 ## Notes
 
 MLflow is not required at inference time
 The Streamlit app loads a pre-trained model artifact
 Designed as a clean, minimal demo of an ML lifecycle
+
+---
 
 ## Use case
 
