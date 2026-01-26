@@ -92,3 +92,7 @@ if st.button("Predict"):
         st.error("🚨 Churn: YES (Customer likely to leave)")
     else:
         st.success("✅ Churn: NO (Customer likely to stay)")
+
+proba = model.predict_proba(input_df)[0][1]
+st.info(f"Customer Churn Probability: {proba:.2%}")
+
