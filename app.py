@@ -12,7 +12,10 @@ st.set_page_config(
 )
 
 st.title("📉 Customer Churn Prediction")
-st.caption("Trained with MLflow | Deployed with Streamlit")
+st.caption("Predict whether a customer will churn based on their details.")
+st.caption("Provide the customer information and click 'Predict' to see the result.")
+st.caption("Developed by Bikram with Python, Scikit-learn, MLflow, and Streamlit.")
+st.caption("The model is trained locally using MLflow for experiment tracking and then deployed as a lightweight Streamlit web app for predictions.")
 
 # ----------------------------
 # Contract encoding
