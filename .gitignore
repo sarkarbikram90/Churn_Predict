@@ -220,3 +220,5 @@ mlflow.db
 .DS_Store
 Thumbs.db
 
+# Updated gitignore
+
