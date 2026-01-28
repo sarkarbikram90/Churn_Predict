@@ -53,7 +53,7 @@ monthly = st.number_input(
     "Monthly Charges",
     min_value=0.0,
     max_value=200.0,
-    value=70.0
+    value=0.0
 )
 
 total = st.number_input(

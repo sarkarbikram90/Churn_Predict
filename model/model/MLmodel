@@ -1,4 +1,4 @@
-artifact_path: file:C:/Users/bikrams/Churn_Predict/Churn_Predict/mlruns/2/models/m-f0443b8ab6934568afc2c1d1cbd2a698/artifacts
+artifact_path: file:C:/Users/bikrams/Churn_Predict/Churn_Predict/mlruns/3/models/m-740cceeb740e45c895986334200e9ac9/artifacts
 flavors:
   python_function:
     env:
@@ -14,9 +14,9 @@ flavors:
     serialization_format: cloudpickle
     sklearn_version: 1.8.0
 mlflow_version: 3.8.1
-model_id: m-f0443b8ab6934568afc2c1d1cbd2a698
-model_size_bytes: 12066624
-model_uuid: m-f0443b8ab6934568afc2c1d1cbd2a698
+model_id: m-740cceeb740e45c895986334200e9ac9
+model_size_bytes: 201815
+model_uuid: m-740cceeb740e45c895986334200e9ac9
 prompts: null
-run_id: 4eef75403cd646989ab68f5072d60b0d
-utc_time_created: '2026-01-26 05:17:01.429118'
+run_id: 608fb417d32a4e728d4d4f284b14ebf6
+utc_time_created: '2026-01-28 07:07:49.848717'
