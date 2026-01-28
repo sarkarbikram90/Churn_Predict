@@ -38,7 +38,7 @@ tenure = st.slider(
     "Tenure (months)",
     min_value=0,
     max_value=72,
-    value=12
+    value=0
 )
 
 monthly = st.number_input(
@@ -52,7 +52,7 @@ total = st.number_input(
     "Total Charges",
     min_value=0.0,
     max_value=10000.0,
-    value=1000.0
+    value=0.0
 )
 
 contract_label = st.selectbox(
